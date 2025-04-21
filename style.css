@@ -1,0 +1,110 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #0a0a0a; /* Dark background */
+    overflow: hidden; /* To avoid scrollbars */
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #0a0a0a; /* Dark background */
+    overflow: hidden; /* To avoid scrollbars */
+    cursor: url("3099445_evil_monkey_no_speak_icon.svg"),auto;
+
+}
+
+.star {
+    position: absolute;
+    background-color: white;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    animation: twinkle 1.5s infinite ease-in-out;
+}
+
+@keyframes twinkle {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
+}
+
+
+
+.star {
+    position: absolute;
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    animation: twinkle 1.5s infinite ease-in-out;
+}
+
+@keyframes twinkle {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
+}
+
+
+
+.box
+{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.bar
+{
+    padding: 12px;
+    text-align: center;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    margin-top: 32px;
+    background-color: orangered;
+    text-transform: lowercase;
+    font-weight: 200;
+    
+}
+input 
+{
+    padding: 122px 122px;
+    /* background: linear-gradient(to right, #fb4b1f, #d26f23); */
+    color:black;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid gold;
+    margin-top: 12px;
+
+}
+
+button
+{
+     color: white;
+     padding: 18px;
+     margin: 12px;  
+     border-radius: 11px;
+     border: 0.5px solid black;
+     background-color: blue;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 15px;
+     cursor: pointer;
+
+}
+input ::selection
+{
+    color: chartreuse;
+}
